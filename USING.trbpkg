@@ -1,0 +1,14 @@
+Writer: Operachi
+
+No is not .trbpkg package but it is example how to use trbprt. So if you want to maintaining port you can create it
+or if you want normaly using turboports without maintaining you can simply manage ports (or precompiled) with turboports!
+For example when you want to install package you must write command as root "trbprt install <Portname>".
+If you want to create builded package (not port) you can build package to fake prefix named as port with version
+for e.g trbprt package Foo-1.2.3.4. Yes you can create any name of port, with small or big letters, but can't
+create port named as fetched source or decompressed source (only if you create PORTLIKE file).
+If you want you can check version of turboports version via "trbprt version", you can too check installed ports
+via "trbprt portlist", you can remove installed port with "trbprt remove Foo". 
+For upgrade you must write "trbprt upgrade Foo" or if you want you can upgrade all installed ports via "trbprt upgrade --all".
+If you are user (or you want to be maintainer) you must build port via "trbprt build" but you must be in directory with PORTLIKE file.
+For debug building you can make "trbprt build --debug". Yes for default building can't show what program use to compile e.g C so you can
+see it with "--debug" option.
