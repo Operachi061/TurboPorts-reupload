@@ -1,5 +1,6 @@
 Important description!
-turboports is garbage and is not supported.
+TURBOPORTS IS GARBAGE AND IS NOT SUPPORTED!!!!
+
 To install turboports write "./run.sh" as root!!
 
 <img src="https://user-images.githubusercontent.com/81317803/217645688-2ae2629a-367c-4e0d-893f-95da2d702437.png" width="200" />
